@@ -11,7 +11,7 @@ const Forecast = ({ data }) => {
 
   const cardChangeDynamically = data.list[0].main.temp > temperatureThreshold ? 'hot-black-card-white-text' : 'cold-white-card-black-text';
 
-  const headingChangeDynamically = data.list[1].main.temp > temperatureThreshold ? 'forecast-heading-shadow-and-color-with-white-background' : 'forecast-heading-shadow-and-color-with-black-background';
+  const headingChangeDynamically = data.list[1].main.temp > temperatureThreshold ? 'forecast-heading-shadow-and-color-with-orange-background' : 'forecast-heading-shadow-and-color-with-black-background';
   return (
     <div className={`weather bdwhite ${backgroundClass}`}>
       <h2 className={`heading ${headingChangeDynamically}`}>Three-Hour Forecast</h2>

@@ -38,17 +38,15 @@
   text-align: center;
   /* text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3); */
-  color: #121212;
+  color: white;
 }
 
 .forecast-heading-shadow-and-color-with-black-background{
   text-shadow: 3px 3px 2px #ffffff4d;
-  color: white;
 }
 
-.forecast-heading-shadow-and-color-with-white-background{
+.forecast-heading-shadow-and-color-with-orange-background{
   text-shadow: 3px 3px 2px #0000004d;
-  color: black;
 }
 
 ul {
