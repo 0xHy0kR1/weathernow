@@ -1,0 +1,170 @@
+
+.gradient-orange {
+  background: linear-gradient(135deg, #ff5733, #ff8c33);
+}
+
+.gradient-blue {
+  background: linear-gradient(171deg, #000000, #1c3136);
+}
+
+.hot-black-card-white-text{
+  /* background: linear-gradient(31deg, white, #FF5719); */
+  background-color: black;
+  color: white;
+  box-shadow: 12px 10px 9px rgba(0, 0, 0, 0.2);
+  /* text-shadow: 3px 4px 4px #ffffff4d; */
+  text-shadow: 3px 3px 2px #ffffff4d;
+}
+
+.cold-white-card-black-text{
+  background: white;
+  color: black;
+  box-shadow: 12px 10px 9px rgba(255, 255, 255, 0.2);
+  text-shadow: 3px 3px 2px #0000004d;
+}
+.forecast {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0/ 45%);
+}
+
+.heading{
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  /* text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3); */
+  color: #121212;
+}
+
+.forecast-heading-shadow-and-color-with-black-background{
+  text-shadow: 3px 3px 2px #ffffff4d;
+  color: white;
+}
+
+.forecast-heading-shadow-and-color-with-white-background{
+  text-shadow: 3px 3px 2px #0000004d;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.date {
+  font-size: 16px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.temperature {
+  font-size: 4rem;
+}
+
+/* Apply 3D effect with text shadow */
+.forecast h2, .forecast li {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Style the forecast cards */
+.forecast-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  /* text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 8px 8px 10px rgba(255,255,255,0.3); */
+  text-shadow: 3px 4px 4px #ffffff4d;
+}
+
+.forecast-card {
+  border: 1px solid #000;
+  border-radius: 9px;
+  padding: 20px;
+  /* box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2); */
+
+  width: 20%;
+  text-align: center;
+  height: 18%;
+}
+
+.future-forecast-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dayOfWeek{
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+
+.AmPmTime{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.forecast-card .description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 4px auto;
+}
+
+.forecast-card .temperature {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  margin: 4px auto;
+}
+
+/* Add a media query for screens smaller than 490px */
+@media (max-width: 490px) {
+  .forecast-cards {
+    
+    gap: 10px;
+  }
+
+  .forecast-card {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 402px) {
+  .forecast-cards {
+    
+    gap: 10px;
+  }
+
+  .forecast-card {
+    width: 18%;
+    height: 19%;
+  }
+}
+
+@media (max-width: 355px) {
+  .forecast-cards {
+    
+    gap: 10px;
+  }
+
+  .forecast-card {
+    font-size: 12px;
+    width: 15%;
+    height: 18%;
+  }
+}

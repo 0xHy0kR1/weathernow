@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('/public/images/tree-background.jpg');
+  background-size: cover; /* Add this line to make the image cover the entire viewport */
+  background-repeat: no-repeat; /* To prevent image tiling */
+  background-attachment: fixed; /* Optional: Keeps the image fixed while scrolling */
+  background-position: center center; /* Optional: Centers the image */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,151 @@
+.gradient-orange {
+    background: linear-gradient(135deg, #ff5733, #ff8c33);
+  }
+  
+.gradient-blue {
+    background: linear-gradient(171deg, #000000, #1c3136);
+}
+.weather{
+    width: 477px;
+    height: 557px;
+    border-radius: 9px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0/ 45%);
+    margin: 0 auto 0 auto;
+    padding: 0 20px 20px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: white;
+    border-width: 2px;
+}
+
+/* CSS to place image icon in the middle */
+/* .img-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.top, .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.city-weather-description{
+    display: flex;
+    margin-top: 10px;
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.3));
+}
+
+.city-weather-description img{
+    width: 22px;
+    height: 22px;
+}
+.weather-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+}
+
+/* styling for weather icons */
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.middle-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.middle-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.parameter-row img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Add shadow effect for images with white color inverter class*/
+/* .img-shadow-black{ */
+    /* box-shadow: 3px 3px 4px rgba(255, 255, 255, 0.3); Adjust shadow properties as needed */
+/* }  */
+
+/* Add shadow effect for images with black color inverter class */
+/* .img-shadow-white { */
+    /* filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.3)); Adjust shadow properties as needed */
+/* }  */
+
+.img-color-black{
+    filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 100));
+}
+
+.img-color-white{
+    filter: drop-shadow(3px 3px 1px rgba(255, 255, 255, 0.5));
+}
+
+.current-weather-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-shadow-black{
+    text-shadow: 3px 3px 2px #0000004d;
+}
+
+.text-shadow-white{
+    text-shadow: 3px 3px 2px #ffffff4d;
+}
+
+.weather-icon{
+    width: 150px;
+    margin: auto;
+}
+
+.temperature{
+    font-weight: 600;
+    font-size: 70px;
+    width: auto;
+    margin: 10px 0;
+    letter-spacing: 1px;
+
+}
+
+.details{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.parameter-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.parameter-label{
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.parameter-value{
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
